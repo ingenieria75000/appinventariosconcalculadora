@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Chakra Petch', sans-serif;
+  background: linear-gradient(135deg, #ff0054, #00f6ff, #fcff00, #6a00ff);
+  background-size: 800% 800%;
+  animation: fondoAnimado 15s ease infinite;
+  color: #fff;
+}
+
+@keyframes fondoAnimado {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 0 30px #000;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #00ffcc;
+  text-shadow: 2px 2px #ff00ff;
+  text-transform: lowercase;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #fffb00;
+  text-shadow: 1px 1px #ff0099;
+  text-transform: lowercase;
+}
+
+.descripcion {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.publico {
+  margin-top: 30px;
+  font-size: 1.6em;
+  color: #00ffe0;
+  text-shadow: 1px 1px #ff00b7;
+  text-transform: lowercase;
+}
+
+.lista {
+  list-style-type: "💼 ";
+  margin-left: 20px;
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
+
+.precio {
+  margin-top: 40px;
+  font-size: 1.4em;
+  color: #ffb703;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff00cc;
+  text-transform: lowercase;
+}
+
+a.whatsapp {
+  color: #25D366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.whatsapp:hover {
+  text-decoration: underline;
+  color: #00ff99;
+}
